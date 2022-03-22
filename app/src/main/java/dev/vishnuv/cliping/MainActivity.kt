@@ -9,11 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val image: ImageView = findViewById(R.id.image)
+        val mountainImage: ImageView = findViewById(R.id.image)
         val clipOutlineProvider = ClipOutlineProvider(24f)
 
-        image.outlineProvider = clipOutlineProvider
-        image.clipToOutline = true
+        mountainImage.outlineProvider = clipOutlineProvider
+        mountainImage.clipToOutline = true
 
 
     }
