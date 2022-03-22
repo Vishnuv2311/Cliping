@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val mountainImage: ImageView = findViewById(R.id.image)
+
         val clipOutlineProvider = ClipOutlineProvider(24f)
 
         mountainImage.outlineProvider = clipOutlineProvider
